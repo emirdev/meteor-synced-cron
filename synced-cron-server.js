@@ -24,8 +24,6 @@ SyncedCron = {
   }
 }
 
-Later = Npm.require('later');
-
 /*
   Logger factory function. Takes a prefix string and options object
   and uses an injected `logger` if provided, else falls back to
